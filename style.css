@@ -3,6 +3,11 @@ main{
     margin: 50px;
 }
 
+header{
+    min-width: 480px;
+}
+
+
 nav{
     background-color: #000000;
     text-align: right;
@@ -46,7 +51,6 @@ body{
 
 figure{
     margin: 5px;
-    width: ;
 }
 
 img{
@@ -130,3 +134,80 @@ input{
   }
     
 
+#chile{
+    color: #ffffff;
+    bottom:25px;
+    position: relative;
+    font-size: small;
+}
+
+#Guatemala {
+    color: #ffffff;
+    bottom:194px;
+    position: relative;
+    font-size: small;
+}
+
+#Hawaii {
+    color: #ffffff;
+    bottom:25px;
+    position: relative;
+    font-size: small;
+}
+
+#iran {
+    bottom:440px;
+    position: relative;
+    font-size: small;
+}
+
+
+#ireland {
+    bottom:440px;
+    position: relative;
+    font-size: small;
+}
+
+#italy {
+    bottom:25px;
+    position: relative;
+    font-size: small;
+}
+
+#Moab{
+    color: #ffffff;
+    bottom:25px;
+    position: relative;
+    font-size: small;
+}
+
+#Rocky-Mountains {
+    bottom:194px;
+    position: relative;
+    font-size: small;
+}
+
+#Switzerland {
+    bottom:194px;
+    position: relative;
+    font-size: small;
+}
+
+#UK {
+    bottom:194px;
+    position: relative;
+    font-size: small;
+}
+
+#USA {
+    bottom:194px;
+    position: relative;
+    font-size: small;
+}
+
+#Wyoming{
+    color: #ffffff;
+    bottom:194px;
+    position: relative;
+    font-size: small;
+}
