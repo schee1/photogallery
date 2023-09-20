@@ -1,5 +1,6 @@
 main{
-    background-color: #000000;
+    background-color: #ffffff;
+    margin: 50px;
 }
 
 nav{
@@ -39,8 +40,21 @@ html{
 }
 
 body{
-    background-color: #ffffff;
+    background-color: #000000;
     min-width: 480px;
+}
+
+figure{
+    margin: 5px;
+    width: ;
+}
+
+img{
+    width: 300px;
+}
+
+figcaption{
+    text-align: center;
 }
 
 p {
@@ -57,18 +71,27 @@ nav a {
 }
 
 h1 {
+    background-color: #ffffff;
     font-size: 3em;
     color: #007d7b;
+    min-width: 480px;
 }
 
 h2 {
     font-size: 2em;
     text-align: center;
+    text-transform: uppercase;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
 }
 
 
 form {
     color: #ffffff;
+    background-color: #000000;
     padding-top: 20px;
     margin: auto;
     text-align: center;
@@ -83,6 +106,10 @@ form {
    display: table-cell;
    margin-bottom: 10px;
  }
+
+input{
+    width: px;
+}
 
   ::placeholder {
     color: #007d7b;
@@ -102,3 +129,4 @@ form {
     text-transform: uppercase;
   }
     
+
