@@ -35,6 +35,10 @@ nav a {
     text-decoration: none;
 }
 
+nav a:hover{
+    color:#007d7b
+}
+
 [href="#top"] {
     color: #007d7b;
     background-color: rgba(0,0,0,.35);
@@ -145,8 +149,15 @@ input{
     display: flex;
     justify-content: center;
     margin: 10px;
-
   }
+
+    #submit{
+    border-color: #007d7b;
+    border: 5px;
+    color: #007d7b;
+    font-weight: bold;
+    text-transform: uppercase;
+}
 
   footer{
     text-align: center;
@@ -241,8 +252,20 @@ input{
     grid-template-columns: auto auto;
 }
 
+nav{
+    text-align: center;
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+    margin-left: 48px;
+}
 
 
+footer{
+font-size: x-small;
+}
 }
 
 @media screen and (max-width: 485px) {
@@ -251,12 +274,53 @@ input{
     grid-template-columns: auto;
 }
 
-img{
-    
+body{
+    min-width: 0px;
+    max-width: 400px;
+    margin-left: 20px;
+}
+
+figcaption{
+    position: relative; 
+    right: 80px;
+}
+
+nav{
+    text-align: center;
 }
 
 p {
-    width: 400px;
+    width: 300px;
+    word-wrap: break-word;
+
 }
+
+h1{
+    font-size: 35px;
+    text-align: center;
+    margin-left: 48px;
+}
+
+h2{
+    margin-right: 150px;
+}
+
+li{
+    font-size: 12px;
+}
+
+footer{
+    text-align: center;
+    font-size: xx-small;
+}
+
+form {
+    color: #ffffff;
+    background-color: #000000;
+    margin: auto;
+    text-align: center;
+    width: 400px;
+    overflow: hidden;
+  }
 
 }
